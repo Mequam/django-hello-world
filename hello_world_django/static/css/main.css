@@ -1,0 +1,7 @@
+/*
+ * dark mode for LIFE
+ */
+body {
+	background-color: black;
+	color: white;
+}

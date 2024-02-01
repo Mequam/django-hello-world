@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		
+		{# required for displaying static information on the page #}
+		{%load static%}
+
+		<link rel="stylesheet"
+				href="{%static '/css/main.css'%}"
+				type="text/css"
+				media="screen"
+				title="no title"
+				charset="utf-8">
+		<title>hello world page</title>
+	</head>
+	<body>
+		<p>Hello World</p>
+		<img src="{% static 'images/15mand.png' %}"/>
+	</body>
+</html>
